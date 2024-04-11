@@ -13,7 +13,6 @@ import java.util.Set;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
 @Table(name = "flight")
 public class Flight extends AbstractEntity {
 
